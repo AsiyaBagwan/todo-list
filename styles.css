@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-background: linear-gradient(135deg, #f0bbcb,#4e085f);
+background: linear-gradient(135deg, #D2FF72,#15B392);
 padding: 10px;
 } 
 .todoApp{
@@ -70,7 +70,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/To-do_list/unchecked.png);
+    background-image: url(/todo-list/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 9px;
@@ -81,7 +81,7 @@ ul li::before{
         text-decoration: line-through;
     }
     ul li.checked::before{
-        background-image: url(/To-do_list/checked.png);
+        background-image: url(/todo-list/checked.png);
     }
 ul li span{
     position: absolute;
